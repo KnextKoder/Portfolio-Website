@@ -51,14 +51,13 @@
             class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-                Hi! I'm <span class="poppins text-violet-400">Samuel</span> Oak
+                Hi! I'm <span class="poppins text-slate-600">Marvel...</span>
                 <br />Full Stack
-                <span class="poppins text-violet-400">Developer</span>
+                <span class="poppins text-slate-600">Developer</span>
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
-                My <span class="text-violet-400"> favorite tech</span> includes JavaScript
-                (NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express.js & PostgreSQL
-                or Firebase/Firestore!
+                My <span class="text-[#D2AC47] font-bold"> FAVOURITE</span> tech includes Python & JavaScript,
+                Next.js, TailwindCSS, Node.js + Express.js, Mongo DB, Pytorch and OpenCV!
             </p>
             <button
                 class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
@@ -94,21 +93,21 @@
     </section>
     <section class="py-20 lg:py-32 flex flex-col gap-24" id="projects">
         <div class="flex flex-col gap-2 text-center">
-            <h6 class="text-large sm:text-xl md:text-2xl">
+            <!-- <h6 class="text-large sm:text-xl md:text-2xl">
                 A few of my creative endeavors.
-            </h6>
+            </h6> -->
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                Curious to <span class="poppins text-violet-400">see</span> my work?
+                A few of my <span class="poppins text-slate-600">creative</span> endeavours.
             </h3>
         </div>
-        <a
+        <!-- <a
             href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
             target="_blank"
             class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
         >
             <i class="fa-regular fa-circle-play" />
             <p>Watch the video</p>
-        </a>
+        </a> -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>
@@ -143,6 +142,30 @@
                     to display all Pokémon information. Gotta catch them all!
                 </p>
             </Step>
+            <Step step={steps[2]}>
+                <p>
+                    The Pokédex is a <strong class="text-violet-400"
+                        >SvelteKit & TailwindCSS</strong
+                    >
+                    web application, hosted on
+                    <strong class="text-violet-400">Netlify</strong>, that
+                    consumes and caches the
+                    <strong class="text-violet-400">Pokémon API</strong>
+                    to display all Pokémon information. Gotta catch them all!
+                </p>
+            </Step>
+            <Step step={steps[2]}>
+                <p>
+                    The Pokédex is a <strong class="text-violet-400"
+                        >SvelteKit & TailwindCSS</strong
+                    >
+                    web application, hosted on
+                    <strong class="text-violet-400">Netlify</strong>, that
+                    consumes and caches the
+                    <strong class="text-violet-400">Pokémon API</strong>
+                    to display all Pokémon information. Gotta catch them all!
+                </p>
+            </Step>
         </div>
     </section>
     <section
@@ -151,13 +174,13 @@
     >
         <!-- <div class="z-[-1] bg-violet-950 w-screen left-1/2 -translate-x-1/2 top-0 h-full absolute"> </div> -->
         <div
-            class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
+            class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-slate-600 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-slate-600 py-4"
         >
             <h6 class="text-large sm:text-xl md:text-2xl">
                 Want to know more?
             </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                A bit <span class="poppins text-violet-400">about</span> me.
+                A bit <span class="poppins text-slate-600">about</span> me.
             </h3>
         </div>
         <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
@@ -196,7 +219,7 @@
             {/each}
         </div>
         <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
-            The <span class="text-violet-400">Complete</span> Package
+            The <span class="text-[#D2AC47]">Complete</span> Package
         </h5>
         <div
             class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
@@ -209,7 +232,7 @@
                         <th class="whitespace-nowrap p-2 px-4">Candidate #2</th>
                         <th class="whitespace-nowrap p-2 px-4">Candidate #3</th>
                         <th
-                            class="bg-violet-700 text-white whitespace-nowrap p-4 px-8"
+                            class="bg-[#D2AC47] text-white whitespace-nowrap p-4 px-8"
                             >Me</th
                         >
                     </tr>
